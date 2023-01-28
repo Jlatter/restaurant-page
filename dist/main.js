@@ -1,1 +1,1 @@
-console.log(alert("Working!"));
+(()=>{"use strict";console.log("this worked"),window.onload=function(){!function(){const e=document.createElement("h1"),t=document.createElement("p");e.textContent="Welcome to My Restaurant",t.textContent="We are a wonderful restaurant, come and visit us!";const n=document.getElementById("content");n.appendChild(e),n.appendChild(t)}()}})();
