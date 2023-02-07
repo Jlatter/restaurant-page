@@ -1,0 +1,29 @@
+body {
+  background-color: #16161e;
+  color: #b09044;
+  font-family: effra, sans-serif;
+}
+#content {
+  display: grid;
+  grid-template-columns: 1fr 630px 1fr;
+}
+#buttoncon {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/1;
+  justify-content: space-around;
+  padding: 1rem;
+}
+#pagecon {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+  margin-top: 3rem;
+}
+button {
+  background-color: #b09044;
+  border-radius: 4px;
+  border-color: #b09044;
+  padding: 7px;
+  color: #16161e;
+}
